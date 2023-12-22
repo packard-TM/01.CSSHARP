@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\Task2\\Task2.csproj": {}
+    "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\task2\\Task2.csproj": {}
   },
   "projects": {
-    "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\Task2\\Task2.csproj": {
+    "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\task2\\Task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\Task2\\Task2.csproj",
+        "projectUniqueName": "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\task2\\Task2.csproj",
         "projectName": "Task2",
-        "projectPath": "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\Task2\\Task2.csproj",
+        "projectPath": "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\task2\\Task2.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\Task2\\obj\\",
+        "outputPath": "D:\\Обучение програмированию\\01.CSSHARP\\Lesson1\\task2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
