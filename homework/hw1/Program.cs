@@ -105,6 +105,7 @@
 // а на выходе выводит все чётные числа от 1 до number (включительно), разделеные знаком табуляции.
 
 // using System;
+
 // public class Answer {
 //     static void PrintEvenNumbers(int number)
 //     {
@@ -115,16 +116,21 @@
 //         Console.Write($"{counter}\t");
 //         counter = counter +2;
 //     }   
+
 //     }
+
+
 //   // Не удаляйте и не меняйте метод Main! 
 //     static public void Main(string[] args) {
 //         int number;
+
 //         if (args.Length >= 1) {
 //             number = int.Parse(args[0]);
 //         } else {
 //            // Здесь вы можете поменять значения для отправки кода на Выполнение
 //             number = 6;
 //         }
+
 //         // Не удаляйте строки ниже
 //         PrintEvenNumbers(number);
 //     }
