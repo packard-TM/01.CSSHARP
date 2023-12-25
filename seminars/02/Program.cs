@@ -127,3 +127,14 @@ else
 {
     Console.WriteLine("Числа НЕ четные");
 }
+
+int a = 5;
+int b = 6;
+if (a % 2 == 0 || b % 2 == 0)
+{
+    Console.WriteLine("Одно из чисел четное");
+}
+else 
+{
+    Console.WriteLine("Числа не четные");
+}
