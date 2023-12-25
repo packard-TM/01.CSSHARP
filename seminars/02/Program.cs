@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Напишите программу, которая принимает на вход трёхзначное число и удаляет вторую цифру этого числа.
+// Примеры
+// a = 256 => 26
+// a = 891 => 81
+
+// int num = new Random().Next(100, 1000);
+
+// int num1 = num / 100;
+// int num2 = num % 10;
+
+// Console.WriteLine(num);
+// Console.WriteLine(num1 + "" + num2);
+
+// Напишите программу, которая принимает на вход трёхзначное число и возводит вторую цифру этого числа в степень, равную третьей цифре.
+// Примеры
+// 487 => 8^7 = 2 097 152
+// 254 => 5^4 = 625
+// 617 => 1
+
+int input = int.Parse(Console.WriteLine());
