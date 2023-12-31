@@ -79,4 +79,17 @@ for (int i = 0; i < size-1; i++)
     Console.Write(",");
  
 }
-Console.Write(n[size-1]);
+Console.WriteLine(n[size-1]);
+
+// вариант с рандомом
+
+int numbers = new Random().Next(1000, 1000000000);
+Console.WriteLine($"Введено число: {numbers}");
+string row = Convert.ToString(numbers);
+for (int i = 0; i < row.Length-1; i++)
+{
+    Console.Write(row[i]);
+    Console.Write(",");
+ 
+}
+Console.Write(row[row.Length-1]);
