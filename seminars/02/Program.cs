@@ -65,7 +65,7 @@
 // int a = Convert.ToInt32(Console.ReadLine());
 // int b = Convert.ToInt32(Console.ReadLine());
 // int c = a % b;
-// if (a % b == 0){
+// if (c == 0){
 //     Console.WriteLine("Да");
 // }
 // else{
