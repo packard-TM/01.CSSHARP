@@ -10,6 +10,19 @@
 
 // Console.WriteLine(num);
 // Console.WriteLine(num1 + "" + num2);
+// Console.WriteLine(num1 * 10 + num2);
+
+// Console.WriteLine($"{num} => {num1 * 10 + num2}");
+
+//второе решение
+
+// int num = new Random().Next(100, 1000);
+
+// string num1 = Convert.ToString(num / 100);
+// string num2 = Convert.ToString(num % 10);
+
+// Console.WriteLine(num);
+// Console.WriteLine(num1 + num2);
 
 // Напишите программу, которая принимает на вход трёхзначное число и возводит вторую цифру этого числа в степень, равную третьей цифре.
 // Примеры
@@ -117,24 +130,24 @@
 // thirdLast = thirdLast - thirdLast / 10 * 10;
 // Console.WriteLine("For number " + i + " first third number is " + thirdFirst + " last third is " + thirdLast);
 
-int a = 4;
-int b = 6;
-if (a % 2 == 0 && b % 2 == 0)
-{
-    Console.WriteLine("Числа четные");
-}
-else 
-{
-    Console.WriteLine("Числа НЕ четные");
-}
+// int a = 4;
+// int b = 6;
+// if (a % 2 == 0 && b % 2 == 0)
+// {
+//     Console.WriteLine("Числа четные");
+// }
+// else 
+// {
+//     Console.WriteLine("Числа НЕ четные");
+// }
 
-int a = 5;
-int b = 6;
-if (a % 2 == 0 || b % 2 == 0)
-{
-    Console.WriteLine("Одно из чисел четное");
-}
-else 
-{
-    Console.WriteLine("Числа не четные");
-}
+// int a = 5;
+// int b = 6;
+// if (a % 2 == 0 || b % 2 == 0)
+// {
+//     Console.WriteLine("Одно из чисел четное");
+// }
+// else 
+// {
+//     Console.WriteLine("Числа не четные");
+// }
