@@ -13,8 +13,8 @@ class UserInputToCompileForTest
     public static int CountItemsRange(int[] numbers, int minRange, int maxRange)
     {
         //Введите сюда свое решение
-        minRange = 9;
-        maxRange = 91;
+        // minRange = 9;
+        // maxRange = 91;
         int counter = 0;
         for (int i = 0; i < numbers.Length; i++)
             if (numbers[i] > minRange && numbers[i] < maxRange)
