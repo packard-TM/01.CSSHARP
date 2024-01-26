@@ -6,7 +6,7 @@ string GetLettersFromString(string s)
     string letters = "";
     foreach (char e in s)
     {
-        if(char.IsAsciiLetter(e)== true)
+        if(char.IsLetter(e)== true)
         {
             letters = letters + e;
         }
