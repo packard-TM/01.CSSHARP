@@ -37,7 +37,7 @@ class UserInputToCompileForTest
     public static void PrintResult(int[,] numbers, int x, int y)
     {
         //Напишите свое решение здесь
-        if (x < 0 | x > numbers.GetLength(0) - 1 | y < 0 | y > numbers.GetLength(1) - 1)
+        if (x < 0 | x > numbers.GetLength(0) | y < 0 | y > numbers.GetLength(1))
         {
             Console.WriteLine("Позиция по рядам выходит за пределы массива");
         }
