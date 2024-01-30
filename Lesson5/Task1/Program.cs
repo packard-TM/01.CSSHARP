@@ -14,4 +14,4 @@ int Fact(int n)
     Console.WriteLine($"Возврат: n = {x}, Fact = {n}");
     return n;    
 }
-Console.Write(Fact(9));
+Console.Write(Fact(5));
