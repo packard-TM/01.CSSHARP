@@ -16,16 +16,15 @@ Console.WriteLine(LenMN(M, N));
 // Даны два неотрицательных числа m и n. 
 
 Console.Clear();
-int m = 2;
-int n = 3;
-int FunkAkk = Akk(m, n);
 int Akk(int m, int n)
 {
     if (m == 0) return n + 1;
     else if (n == 0) return Akk(m - 1, 1);
     else return Akk(m - 1, Akk(m, n - 1));
 }
-Console.Write($"Функция Аккермана = {FunkAkk} ");
+int m = 2;
+int n = 3;
+Console.Write($"Функция Аккермана = {Akk(m, n)}");
 
 // Задача 3: Задайте произвольный массив. Выведете его элементы, начиная с конца.
 // Использовать рекурсию, не использовать циклы.
