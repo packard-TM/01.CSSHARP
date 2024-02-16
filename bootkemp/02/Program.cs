@@ -1,4 +1,6 @@
-﻿// void InputArray(int[] array)
+﻿// сортировка выбором
+
+// void InputArray(int[] array)
 // {
 //     for (int i = 0; i < array.Length; i++)
 //     {
@@ -34,13 +36,10 @@
 // Console.WriteLine($"Начальный массив: [{string.Join(", ", array)}]");
 // Console.WriteLine($"Конечный массив: [{string.Join(", ", sortVibor(array))}]");
 
+// второй вариант с sorting и Infrastructure
+
 using static Sorting;
 using static Infrastructure;
-
-// int[] array = CreateArray(10); // можно менять размер min и max (10, 100, 200)
-// Show(array);
-// SortSelection(array);
-// Show(array);
 
 10.CreateArray()
 .Show()
