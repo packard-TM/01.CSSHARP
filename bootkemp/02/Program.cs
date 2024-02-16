@@ -41,7 +41,7 @@
 using static Sorting;
 using static Infrastructure;
 
-10.CreateArray()
+10.Creat eArray()
 .Show()
 .SortSelection()
 .Show();
